@@ -9,6 +9,18 @@
       "email" : "borja.serrano@cenoposiciones.com"
     }
   ],
+  "autoload"          : {
+    "psr-4" : {
+      "Borsercen\\Calculator\\" : "src"
+    }
+  },
+  "extra"             : {
+    "laravel" : {
+      "providers" : [
+        "Borsercen\\Calculator\\CalculatorServiceProvider"
+      ]
+    }
+  },
   "minimum-stability" : "dev",
   "require"           : { }
 }

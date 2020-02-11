@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 
 class CalculatorController extends Controller {
 	public function add($a, $b) {
-		$result = $a + $b;
+		$result = ($a + $b) * config('calculator.plus');
 		return view('calculator::add')
 			->with('result', $result);
 	}
