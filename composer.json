@@ -1,0 +1,14 @@
+{
+  "name"              : "borsercen/calculator",
+  "description"       : "Calculadora de prueba",
+  "type"              : "library",
+  "license"           : "mit",
+  "authors"           : [
+    {
+      "name"  : "BorjaSer",
+      "email" : "borja.serrano@cenoposiciones.com"
+    }
+  ],
+  "minimum-stability" : "dev",
+  "require"           : { }
+}
